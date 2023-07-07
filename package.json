@@ -1,0 +1,25 @@
+{
+  "name": "iris-local-proxy",
+  "version": "1.0.1",
+  "description": "Iris local proxy server",
+  "bin": {
+    "proxy": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sasa Oluic",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "cors": "^2.8.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.16.3",
+    "http-terminator": "^3.2.0",
+    "request": "^2.85.0"
+  },
+  "type": "module",
+  "main": "index.js"
+}
