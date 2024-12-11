@@ -6,4 +6,5 @@ Local proxy server for resolving CORS issues.
 Install directly from GitHub:
 
 ```bash
-npm install git+https://github.com/olsa/iris-local-proxy.git
+npm install -g git+https://github.com/olsa/iris-local-proxy.git
+
