@@ -25,7 +25,7 @@ Check the `.tgz` filename and start the installation:
 npm install -g iris-local-proxy-x.x.x.tgz
 ```
 
-### Unistall
+### Uninstall
 
 ```
 npm uninstall -g iris-local-proxy
