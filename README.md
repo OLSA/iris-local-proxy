@@ -41,6 +41,7 @@ Here is an example in JavaScript to bypass CORS. The same concept can be applied
 ```javasxcript
 
 const proxyURL = "http://" + window.location.hostname + ":8010/proxy/";
+
 const apiUrl = "https://example.io/getEPGData";
 let apiUrlUsingProxy = proxyURL + apiUrl;
 
