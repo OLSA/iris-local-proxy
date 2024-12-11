@@ -19,6 +19,9 @@ You can create the package from the source and then install it globally:
 git clone https://github.com/olsa/iris-local-proxy.git
 cd iris-local-proxy
 npm pack
+```
+Check the `.tgz` filename and start the installation:
+```
 npm install -g iris-local-proxy-x.x.x.tgz
 ```
 
