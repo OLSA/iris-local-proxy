@@ -36,6 +36,20 @@ Start the proxy server from the command line:
 ```
 proxy start
 ```
+Here is an example in JavaScript to bypass CORS. The same concept can be applied to other technologies where cross-origin requests need to be handled.
+
+```javasxcript
+
+const proxyURL = "http://" + window.location.hostname + ":8010/proxy/";
+const apiUrl = "https://example.io/getEPGData";
+let apiUrlUsingProxy = proxyURL + apiUrl;
+
+fetch(apiUrlUsingProxy)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+```
+
 Shutdown the server
 ```
 Ctrl + C
