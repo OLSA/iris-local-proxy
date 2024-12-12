@@ -3,7 +3,7 @@ A local proxy server designed to bypass CORS (Cross-Origin Resource Sharing) res
 
 ## Installation
 
-To make the iris-local-proxy accessible from any directory on your system, install it globally using one of the following methods:
+Install the iris-local-proxy globally using one of the following methods:
 
 ### Install from GitHub
 To install directly from the GitHub repository, use the following command:
