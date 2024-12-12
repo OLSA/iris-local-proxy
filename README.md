@@ -25,12 +25,6 @@ Check the `.tgz` filename and start the installation:
 npm install -g iris-local-proxy-x.x.x.tgz
 ```
 
-### Uninstall
-
-```
-npm uninstall -g iris-local-proxy
-```
-
 ### Usage
 Start the proxy server from the command line:
 ```
@@ -54,4 +48,10 @@ fetch(apiUrlUsingProxy)
 Shutdown the server
 ```
 Ctrl + C
+```
+
+### Uninstall
+
+```
+npm uninstall -g iris-local-proxy
 ```
