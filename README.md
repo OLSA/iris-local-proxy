@@ -31,6 +31,7 @@ Start the proxy server from the command line:
 proxy start
 ```
 Here is an example in JavaScript to bypass CORS. The same concept can be applied to other technologies where cross-origin requests need to be handled.
+*Note: In this initial version, the proxy server listens on port 8010 and requires the /proxy path.*
 
 ```javasxcript
 
